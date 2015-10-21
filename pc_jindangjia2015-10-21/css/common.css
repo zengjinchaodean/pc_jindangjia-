@@ -1,0 +1,154 @@
+/*头部CSS开始*/
+.index_header{
+	height: 30px;
+	width: 100%;
+	line-height: 26px;
+	font-size: 14px;
+	font-family:'Microsoft Yahei', '微软雅黑';
+	background-color: #f3f3f3;
+	border-top:1px solid #e4e4e4;
+	border-bottom:1px solid #e4e4e4;
+	color: #6d6d6d;
+}
+.on{
+	color: #ff8400;
+}
+a{
+	color: #242933;
+}
+body{
+	font-family:'Microsoft Yahei', '微软雅黑';
+}
+.header_wrap{
+	margin: 0 auto;
+	width: 1200px;
+}
+.header_left{
+	float: left;
+	margin-left: 30px;
+}
+.index_header a {
+    color: #646262;
+    text-decoration: none;
+}
+.index_header a:hover{
+	color: #ff3414;
+}
+.index_header .alink{
+	margin-right: 20px;
+}
+.header_phone{
+	font-size: 14px;
+	color: #6d6d6d;
+}
+.header_phone a:hover{
+	color: #6d6d6d;
+}
+.header_phone_number{
+	margin-left: 12px;
+}
+.header_moblie{
+	margin: 0 6px 0 36px;
+}
+.user_info{
+	float: right;
+}
+.user_phone{
+	margin-right: 22px;
+}
+.user_info .help_center{
+	padding-left: 24px;
+	border-left: 1px solid #bebebe;
+	margin-right: 0;
+}
+/*头部CSS结束*/
+/*导航栏开始*/
+.menu_list{
+	height: 110px;
+	background-color: #fff;
+}
+.menu_list_info{
+	margin: 0 auto;
+	width: 1200px;
+	height: 100%;
+	line-height: 110px;
+}
+ul{
+	margin:0;
+	padding: 0;
+	display: inline-block;
+	overflow: hidden;.
+}
+.menu_list_info li{
+	float: left;
+	list-style: none;
+	margin-left: 80px;
+	font-size: 16px;
+}
+.menu_list_info .menu_list_info_logo{
+	margin-left:0;
+}
+/*导航栏结束*/
+/*底部栏开始*/
+.down_footer{
+	height: 316px;
+	width: 100%;
+	background-color: #494949;
+	color: #fff;
+}
+.erweima_block{
+	position: relative;
+	top: 16px;
+	margin: 0 auto 36px;
+	width: 250px;
+	font-size: 14px;
+}
+.erweima_ios,.erweima_and{
+	display: inline-block;
+	height: 105px;
+	width: 105px;
+	background-color: #717171;
+	text-align: center;
+}
+.erweima_ios{
+	margin-right: 30px;
+}
+.erweima_leibei,.erweima_img{
+	position: relative;
+	top: 10px;
+}
+.footer_list{
+	display: block;
+	margin:0 auto 40px;
+	width: 630px;
+}
+.footer_list li a{
+	color: #fff;
+}
+.footer_list li{
+	display: inline-block;
+	width: 74px;
+	text-align: center;
+	border-left:1px solid #3b3b3b;
+}
+.footer_list li:nth-child(1){
+	display: inline-block;
+	width: 74px;
+	text-align: center;
+	border-left:0px solid #3b3b3b;
+}
+.us{
+	width: 1200px;
+	margin:0 auto; 
+}
+.find_us{
+	font-size: 17px;
+}
+.us_img{
+	margin:0 10px 0;
+}
+.us_name{
+	position: relative;
+	left: 8px;
+}
+/*底部栏结束*/
