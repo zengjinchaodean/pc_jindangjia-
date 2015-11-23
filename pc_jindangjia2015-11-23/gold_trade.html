@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>贵金属交易</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet">
+    
+    <link href="css/common.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/dateRange.js"></script>
+    <script type="text/javascript" src="js/monthPicker.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/dateRange.css"/>
+    <link rel="stylesheet" type="text/css" href="css/monthPicker.css"/>
+    <link href="css/index.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <header class="index_header">
+    <div class="header_wrap">
+      <div class="header_left">
+        <a href="login.html" class="alink">登录</a>
+        <a href="register.html" class="alink">注册</a>
+        <span class="header_phone">
+          客服热线
+          <span class="header_phone_number">0755-86530973</span>
+          <a href="" class="alink"> 
+            <span><img src="images/header_moblie.png" class="header_moblie">手机金当家</span>
+          </a>
+        </span>
+      </div>
+      <div class="user_info">
+        欢迎您,
+        <span class="user_phone">183*******253</span>
+        <a href="#" class="alink">[退出]</a>
+        <a href="#" class="alink follow_us">关注我们</a>
+        <a href="know_jucaijin.html" class="alink help_center ">帮助中心</a>
+      </div>
+    </div>
+  </header>
+  <!--头部结束-->
+  <nav class="menu_list">
+    <div class="menu_list_info">          
+        <ul>
+          <li class="menu_list_info_logo"><img src="images/logo.png"></li>
+          <a href="index.html"><li class="on">首页</li></a>
+          <a href="#"><li>固本金</li></a>
+          <a href="#"><li>智投金</li></a>
+          <a href="#"><li>腾云金</li></a>
+          <a href="#"><li>兑换专区</li></a>
+          <a href="novice.html"><li>新手指引</li></a>
+          <a href="about_us_company.html"><li>关于我们</li></a>
+          <a href="#"><li>媒体报道</li></a>
+        </ul>
+    </div>
+  </nav>
+  <!--导航栏结束-->
+
+
+  <!--贵金属开始-->
+  <section class="myaccount_block">
+    <div class="myaccount_position">
+    <div class="myaccount_list_title">
+      <img src="images/my_account.png" class="myaccount_list_title_img">
+
+      <a href="my_account.html">
+        <span class="myaccount_list_title_content ">
+          <img src="images/my_assest.png" class="myaccount_list_title_content_img">我的资产
+        </span>
+      </a>
+
+      <a href="trade_detail.html">
+        <span class="myaccount_list_title_content ">
+          <img src="images/detail_info.png" class="myaccount_list_title_content_img">交易明细
+        </span>
+      </a>
+
+      <a href="safe_center.html">
+        <span class="myaccount_list_title_content">
+          <img src="images/safe_center.png" class="myaccount_list_title_content_img">安全中心
+        </span>
+      </a>
+
+      <a href="gold_trade.html">
+        <span class="myaccount_list_title_content myaccount_list_title_content_on">
+          <img src="images/gold_trade1.png" class="myaccount_list_title_content_img">贵金属交易
+        </span>
+      </a>
+
+      <a href="#">
+        <span class="myaccount_list_title_content">
+          <img src="images/gold_control.png" class="myaccount_list_title_content_img">贵金属操作
+        </span>
+      </a>
+
+      <a href="query_data.html">
+        <span class="myaccount_list_title_content">
+          <img src="images/check_total.png" class="myaccount_list_title_content_img">查询统计
+        </span>
+      </a>
+
+    </div>
+    <div class="myaccount_list_right_block">
+      <div class="gold_trade_nowprice">
+        <span class="gold_trade_nowprice_title">实时行情</span>
+        <span class="gold_trade_vipunmber">会员号:88888888</span>
+      </div>
+      <div class="gold_trade_nowprice_data">
+        <table class="gold_trade_nowprice_data_table">
+          <tr>
+            <th>黄金买入</th>
+            <th>黄金卖出</th>
+            <th>白银买入</th>
+            <th>白银卖出</th>
+          </tr>
+          <tr>
+            <td>￥23.5</td>
+            <td>￥23.5</td>
+            <td>￥23.5</td>
+            <td>￥23.5</td>
+          </tr>
+        </table>
+      </div>
+      <div class="gold_trade_buy">
+            <ul id="myTab" class="nav nav-tabs gold_trade_new_title">
+               <li class="active">
+                  <a href="#woyaomai" data-toggle="tab">
+                     我要买
+                  </a>
+               </li>
+               <li>
+                  <a href="#woyaomai2" data-toggle="tab">
+                      我要卖
+                  </a>
+               </li>
+
+            </ul>
+            <div id="myTabContent" class="tab-content">
+              <div class="tab-pane fade in active" id="woyaomai">
+                <div class="gold_trade_canusemoney">
+                  <span class="gold_trade_canusemoney_title">可用金额</span>￥
+                  <span class="gold_trade_canusemoney_price">4559.56</span>
+                </div>
+                <div class="gold_trade_buyclass">
+                  买入类型 
+                  <select class="gold_trade_select">
+                    <option >活期</option>
+                    <option >定期</option>
+                  </select>
+                  买入类型
+                  <select class="gold_trade_select">
+                    <option >黄金</option>
+                    <option >白银</option>
+                  </select>
+                </div>
+                <div class="gold_trade_iwannerbuy">
+                  <table class="gold_trade_iwannerbuy_table">
+                    <tr>
+                      <th>最大可买量</th>
+                      <th>买入市价</th>
+                      <th>买入量</th>
+                      <th>操作</th>
+                    </tr>
+                    <tr>
+                      <td>黄金100手,白银10手</td>
+                      <td>￥<span class="gold_trade_iwannerbuy_price">23.61</span></td>
+                      <td><span class="gold_trade_iwannerbuy_price">12</span>手</td>
+                      <td>
+                        <a href="#">
+                          <span class="gold_trade_iwannerbuy_button">提交</span>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>黄金100手,白银10手</td>
+                      <td>￥<span class="gold_trade_iwannerbuy_price">23.61</span></td>
+                      <td><span class="gold_trade_iwannerbuy_price">12</span>手</td>
+                      <td>
+                        <a href="#">
+                          <span class="gold_trade_iwannerbuy_button">提交</span>
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+               </div>
+              <div class="tab-pane fade" id="woyaomai2">
+                  <div class="gold_trade_iwannersold_price">
+                    <img src="images/gold_trade_iwannersold_price.png">
+                    <p class="gold_trade_iwannersold_nowprice">
+                      黄金
+                      <span class="gold_trade_iwannersold_nowprice_right">
+                      <span class="gold_trade_iwannersold_nowprice_right_price">23.59</span>
+                      元/手</span>
+                    </p>
+                    <p class="gold_trade_iwannersold_nowprice_silver">
+                      白银
+                      <span class="gold_trade_iwannersold_nowprice_right">
+                      <span class="gold_trade_iwannersold_nowprice_right_price">3.59</span>
+                      元/手</span>
+                    </p>
+                  </div> 
+                  <div class="gold_trade_soldclass">
+                    买入类型 
+                    <select class="gold_trade_select">
+                      <option >活期</option>
+                      <option >定期</option>
+                    </select>
+                    买入类型
+                    <select class="gold_trade_select">
+                      <option >黄金</option>
+                      <option >白银</option>
+                    </select>
+                  </div>
+                  <div class="gold_trade_iwannerbuy">
+                    <table class="gold_trade_iwannerbuy_table">
+                      <tr>
+                        <th>最大可买量</th>
+                        <th>买入市价</th>
+                        <th>买入量</th>
+                        <th>操作</th>
+                      </tr>
+                      <tr>
+                        <td>黄金100手,白银10手</td>
+                        <td>￥<span class="gold_trade_iwannerbuy_price">23.61</span></td>
+                        <td><span class="gold_trade_iwannerbuy_price">12</span>手</td>
+                        <td>
+                          <a href="#">
+                            <span class="gold_trade_iwannerbuy_button">提交</span>
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>黄金100手,白银10手</td>
+                        <td>￥<span class="gold_trade_iwannerbuy_price">23.61</span></td>
+                        <td><span class="gold_trade_iwannerbuy_price">12</span>手</td>
+                        <td>
+                          <a href="#">
+                            <span class="gold_trade_iwannerbuy_button">提交</span>
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>   
+              </div>
+            </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!--贵金属结束-->
+
+   <!--底部开始-->
+  <footer class="down_footer">
+       <section class="footer_content_top">
+         <div class="footer_content_top_block">
+           <div class="find_us">
+             <p class="find_us_p">联系我们</p>
+             <span class="find_us_mail">
+               <img src="images/e_mail.png">
+               <span>chengipeng@golditfin.cn</span>
+             </span>
+             <span class="find_us_phone">
+               <img src="images/tel.png">
+               <span>0755-86530973</span>
+             </span>
+             <span class="find_us_address" style="display:block;">
+               <img src="images/home.png">
+               <address>深圳市南山区科研路9号(比克科技大厦)22楼F单元</address>
+             </span>
+           </div>
+           <div class="about_us">
+             <p class="about_us_p">关于我们</p>
+             <ul class="about_us_content_ul">
+               <li class="about_us_content">
+                  <a href="#">公司简介</a>
+               </li>
+               <li class="about_us_content">
+                  <a href="#">团队管理</a>
+               </li>
+               <li class="about_us_content">
+                  <a href="#">公司动态</a>
+               </li>
+               <li class="about_us_content">
+                  <a href="#">合作伙伴</a>
+               </li>
+               <li class="about_us_content">
+                  <a href="#">联系我们</a>
+               </li>
+               <li class="about_us_content">
+                  <a href="#">媒体报道</a>
+               </li>
+               <li class="about_us_content">
+                  <a href="#">新手指引</a>
+               </li>
+               <li class="about_us_content">
+                  <a href="#">常见问题</a>
+               </li>
+             </ul>
+             <ul  class="about_us_content_ul xiazai">
+               <li class="about_us_content">
+                  <a href="#">客户端下载</a>
+               </li>
+               <li class="about_us_content_xiazai_ios">
+                  <img src="images/ios.png">
+                  <a href="#">IOS</a>
+               </li>
+               <li class="about_us_content_xiazai">
+                  <img src="images/android.png">
+                  <a href="#">Android</a>
+               </li>
+             </ul>
+           </div>
+         </div>
+       </section>
+       <section class="footer_content_bottom">
+         <div class="footer_content_bottom_aera">
+              <ul class="footer_content_bottom_aera_ul">
+                <li>2013-2015金当家ALL  rights  reserced   |  深圳市前海互联金网有限公司   |   粤ICP备15026892号-2</li>
+              </ul>
+         </div>
+       </section>
+  </footer>
+   <!--底部结束-->
+   <!--右侧导航栏开始-->
+   <nav class="nav_right">
+
+     <div  class="nav_right_images1"> 
+       <div class="nav_right_img1erweima">
+       </div>      
+     </div>
+     <div  class="nav_right_images2">
+      <div class="nav_right_img2dianhua"></div>
+     </div>
+     <div  class="nav_right_images3">
+      <div class="nav_right_img3app"></div>
+     </div>
+   </nav>
+   <!--右侧导航栏结束-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>
