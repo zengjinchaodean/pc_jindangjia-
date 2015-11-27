@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>查询统计</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet">
+    
+    <link href="css/common.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/dateRange.js"></script>
+    <script type="text/javascript" src="js/monthPicker.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/dateRange.css"/>
+    <link rel="stylesheet" type="text/css" href="css/monthPicker.css"/>
+    <link href="css/index.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <header class="index_header">
+    <div class="header_wrap">
+      <div class="header_left">
+        <a href="login.html" class="alink">登录</a>
+        <a href="register.html" class="alink">注册</a>
+        <span class="header_phone">
+          客服热线
+          <span class="header_phone_number">0755-86530973</span>
+          <a href="" class="alink"> 
+            <span><img src="images/header_moblie.png" class="header_moblie">手机金当家</span>
+          </a>
+        </span>
+      </div>
+      <div class="user_info">
+        欢迎您,
+        <span class="user_phone">183*******253</span>
+        <a href="#" class="alink">[退出]</a>
+        <a href="#" class="alink follow_us">关注我们</a>
+        <a href="know_jucaijin.html" class="alink help_center ">帮助中心</a>
+      </div>
+    </div>
+  </header>
+  <!--头部结束-->
+  <nav class="menu_list">
+    <div class="menu_list_info">          
+        <ul>
+          <li class="menu_list_info_logo"><img src="images/logo.png"></li>
+          <a href="index.html"><li class="on">首页</li></a>
+          <a href="product_list.html"><li>固本金</li></a>
+          <a href="#"><li>智投金</li></a>
+          <a href="#"><li>腾云金</li></a>
+          <a href="ture_product.html"><li>兑换专区</li></a>
+          <a href="novice.html"><li>新手指引</li></a>
+          <a href="about_us_company.html"><li>关于我们</li></a>
+          <a href="#"><li>媒体报道</li></a>
+        </ul>
+    </div>
+  </nav>
+  <!--导航栏结束-->
+
+
+  <!--查询统计开始-->
+  <section class="query_data_block">
+    <div class="query_data_position">
+    <div class="myaccount_list_title">
+                <img src="images/my_account.png" class="myaccount_list_title_img">
+
+                <a href="my_account.html">
+                  <span class="myaccount_list_title_content ">
+                    <img src="images/my_assest1.png" class="myaccount_list_title_content_img">我的资产
+                  </span>
+                </a>
+                <div class="myaccount_left_list_info">
+                    <p><a href="my_account.html">资产总览</a></p>
+                    <p><a href="#">利息明细</a></p>
+                    <p><a href="#">我的账单</a></p>
+                    <p><a href="#">我要充值</a></p>
+                    <p><a href="#">我要提现</a></p>
+                </div>
+
+
+                <a href="gold_trade.html">
+                  <span class="myaccount_list_title_content">
+                    <img src="images/gold_trade.png" class="myaccount_list_title_content_img">贵金属交易
+                  </span>
+                </a>
+
+                <div class="myaccount_left_list_info gold_trade_list_info">
+                    <p><a href="#">我要买入</a></p>
+                    <p><a href="#">我要卖出</a></p>
+                    <p><a href="#">我要定投</a></p>
+                </div>
+
+                <a href="#">
+                  <span class="myaccount_list_title_content">
+                    <img src="images/gold_control.png" class="myaccount_list_title_content_img">贵金属操作
+                  </span>
+                </a>
+                <div class="myaccount_left_list_info gold_control_list_info">
+                    <p><a href="#">实物入库</a></p>
+                    <p><a href="#">商品提取</a></p>
+                    <p><a href="#">物流配送</a></p>
+                </div>
+                <a href="query_data.html">
+                  <span class="myaccount_list_title_content myaccount_list_title_content_on">
+                    <img src="images/check_total.png" class="myaccount_list_title_content_img">查询统计
+                  </span>
+                </a>
+                <div class="myaccount_left_list_info query_data_list_info">
+                    <p><a href="#">委托查询</a></p>
+                    <p><a href="#">入库查询</a></p>
+                    <p><a href="#">定投查询</a></p>
+                    <p><a href="#">提货查询</a></p>
+                    <p><a href="#">出入金查询</a></p>
+                </div>
+                <a href="safe_center.html">
+                  <span class="myaccount_list_title_content">
+                    <img src="images/safe_center.png" class="myaccount_list_title_content_img">安全中心
+                  </span>
+                </a>
+            </div>
+          <!--左边导航栏结束-->
+    <div class="query_data_right_block">
+      <div class="query_data_title">
+        查询统计
+      </div>
+      <div class="query_data_tab">
+          <ul id="myTab" class="nav nav-tabs query_data_new_title">
+             <li class="active">
+                <a href="#weituochaxun" data-toggle="tab">
+                   委托查询
+                </a>
+             </li>
+             <li>
+                <a href="#rukuchaxun" data-toggle="tab">
+                    入库查询
+                </a>
+             </li>
+             <li>
+                <a href="#dingtouchaxun" data-toggle="tab">
+                    定投查询
+                </a>
+             </li>
+             <li>
+                <a href="#tihuochaxun" data-toggle="tab">
+                    提货查询
+                </a>
+             </li>
+             <li>
+                <a href="#churujinchaxun" data-toggle="tab">
+                    出入金查询
+                </a>
+             </li>
+
+          </ul>
+          <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade in active" id="weituochaxun">
+              <form>
+                <div class="query_data_choosetime_block">
+                  <span class="query_data_choosetime_content">起止时间</span>
+                  <input class="query_datachoose_start_time" placeholder="例如:20150909">
+                  <span class="query_data_choosetime_content">截至时间</span>
+                  <input class="query_datachoose_end_time" placeholder="例如:20151009">
+                  <span class="query_data_choosetime_content">类型</span>
+                  <select class="query_data_select">
+                    <option >黄金</option>
+                    <option >白银</option>
+                  </select>
+                  <span class="query_data_choosetime_content">状态</span>
+                  <select class="query_data_select">
+                    <option >所有</option>
+                    <option >成交</option>
+                    <option >未成交</option>
+                  </select>
+                  <button class="query_data_time_button">提交</button>
+                  <table class="weituochaxun_table">
+                    <tr class="weituochaxun_table_title">
+                      <th>编号</th>
+                      <th>交易日</th>
+                      <th>贵金属类型</th>
+                      <th>方向</th>
+                      <th>交易类型</th>
+                      <th>价格</th>
+                      <th>数量(手)</th>
+                      <th>总价</th>
+                      <th>手续费</th>
+                      <th>交易状态</th>
+                    </tr>
+                    <tr class="weituochaxun_table_data">
+                      <td>1</td>
+                      <td>20150908</td>
+                      <td>黄金</td>
+                      <td>买入</td>
+                      <td>市价</td>
+                      <td>23.16</td>
+                      <td>20</td>
+                      <td>472.20</td>
+                      <td>0.20</td>
+                      <td>成交</td>
+                    </tr>
+                    <tr class="weituochaxun_table_data">
+                      <td>2</td>
+                      <td>20150908</td>
+                      <td>黄金</td>
+                      <td>买入</td>
+                      <td>市价</td>
+                      <td>23.16</td>
+                      <td>20</td>
+                      <td>472.20</td>
+                      <td>0.20</td>
+                      <td>成交</td>
+                    </tr>
+                    <tr class="weituochaxun_table_data">
+                      <td>3</td>
+                      <td>20150908</td>
+                      <td>黄金</td>
+                      <td>买入</td>
+                      <td>市价</td>
+                      <td>23.16</td>
+                      <td>20</td>
+                      <td>472.20</td>
+                      <td>0.20</td>
+                      <td>成交</td>
+                    </tr>
+                    <tr class="weituochaxun_table_data">
+                      <td>4</td>
+                      <td>20150908</td>
+                      <td>黄金</td>
+                      <td>买入</td>
+                      <td>市价</td>
+                      <td>23.16</td>
+                      <td>20</td>
+                      <td>472.20</td>
+                      <td>0.20</td>
+                      <td>成交</td>
+                    </tr>
+                    <tr class="weituochaxun_table_data">
+                      <td>5</td>
+                      <td>20150908</td>
+                      <td>黄金</td>
+                      <td>买入</td>
+                      <td>市价</td>
+                      <td>23.16</td>
+                      <td>20</td>
+                      <td>472.20</td>
+                      <td>0.20</td>
+                      <td>成交</td>
+                    </tr>
+                  </table>
+                </div>
+              <form>
+            </div>
+            <div class="tab-pane fade" id="rukuchaxun">
+               <form>
+                 <div class="query_data_choosetime_block">
+                   <span class="query_data_choosetime_content">起止时间</span>
+                   <input class="query_datachoose_start_time" placeholder="例如:20150909">
+                   <span class="query_data_choosetime_content">截至时间</span>
+                   <input class="query_datachoose_end_time" placeholder="例如:20151009">
+                   <span class="query_data_choosetime_content">类型</span>
+                   <select class="query_data_select">
+                     <option >黄金</option>
+                     <option >白银</option>
+                   </select>
+                   <span class="query_data_choosetime_content">状态</span>
+                   <select class="query_data_select">
+                     <option >所有</option>
+                     <option >成交</option>
+                     <option >未成交</option>
+                   </select>
+                   <button class="query_data_time_button">提交</button>
+                   <table class="rukuchaxun_table">
+                     <tr class="rukuchaxun_table_title">
+                       <th>编号</th>
+                       <th>交易日</th>
+                       <th>贵金属类型</th>
+                       <th>交易类型</th>
+                       <th>数量(手)</th>
+                       <th>手续费</th>
+                       <th>交易状态</th>
+                     </tr>
+                     <tr class="rukuchaxun_table_data">
+                       <td>1</td>
+                       <td>20150908</td>
+                       <td>黄金</td>
+                       <td>入库</td>
+                       <td>20</td>
+                       <td>0.20</td>
+                       <td class="table_red">未成交</td>
+                     </tr>
+                     <tr class="rukuchaxun_table_data">
+                       <td>2</td>
+                       <td>20150908</td>
+                       <td>黄金</td>
+                       <td>入库</td>
+                       <td>20</td>
+                       <td>0.20</td>
+                       <td class="table_red">未成交</td>
+                     </tr>
+                     <tr class="rukuchaxun_table_data">
+                       <td>3</td>
+                       <td>20150908</td>
+                       <td>黄金</td>
+                       <td>入库</td>
+                       <td>20</td>
+                       <td>0.20</td>
+                       <td class="table_red">未成交</td>
+                     </tr>
+                     <tr class="rukuchaxun_table_data">
+                       <td>4</td>
+                       <td>20150908</td>
+                       <td>黄金</td>
+                       <td>入库</td>
+                       <td>20</td>
+                       <td>0.20</td>
+                       <td>成交</td>
+                     </tr>
+                   </table>
+                 </div>
+               <form>
+            </div>
+            <div class="tab-pane fade" id="dingtouchaxun">
+               <form>
+                 <div class="query_data_choosetime_block">
+                   <span class="query_data_choosetime_content">起止时间</span>
+                   <input class="query_datachoose_start_time" placeholder="例如:20150909">
+                   <span class="query_data_choosetime_content">截至时间</span>
+                   <input class="query_datachoose_end_time" placeholder="例如:20151009">
+                   <span class="query_data_choosetime_content">类型</span>
+                   <select class="query_data_select">
+                     <option >黄金</option>
+                     <option >白银</option>
+                   </select>
+                   <span class="query_data_choosetime_content">状态</span>
+                   <select class="query_data_select">
+                     <option >所有</option>
+                     <option >成交</option>
+                     <option >未成交</option>
+                   </select>
+                   <button class="query_data_time_button">提交</button>
+                   <table class="dingtouchaxun_table">
+                     <tr class="dingtouchaxun_table_title">
+                       <th>编号</th>
+                       <th>交易日</th>
+                       <th>贵金属类型</th>
+                       <th>数量(手)</th>
+                       <th>定存价格(元)</th>
+                       <th>定存金额</th>
+                       <th>计息结束日</th>
+                       <th>计息开始日</th>
+                     </tr>
+                     <tr class="dingtouchaxun_table_data">
+                       <td>1</td>
+                       <td>20150908</td>
+                       <td>黄金</td>
+                       <td>130</td>
+                       <td>23.59</td>
+                       <td>35.38</td>
+                       <td>20150806</td>
+                       <td>20150809</td>
+                     </tr>
+                     <tr class="dingtouchaxun_table_data">
+                       <td>2</td>
+                       <td>20150908</td>
+                       <td>黄金</td>
+                       <td>130</td>
+                       <td>23.59</td>
+                       <td>35.38</td>
+                       <td>20150806</td>
+                       <td>20150809</td>
+                     </tr>
+
+                   </table>
+                 </div>
+               <form>
+            </div>
+            <div class="tab-pane fade" id="tihuochaxun">
+               <form>
+                 <div class="query_data_choosetime_block">
+                   <span class="query_data_choosetime_content">起止时间</span>
+                   <input class="query_datachoose_start_time" placeholder="例如:20150909">
+                   <span class="query_data_choosetime_content">截至时间</span>
+                   <input class="query_datachoose_end_time" placeholder="例如:20151009">
+                   <span class="query_data_choosetime_content">类型</span>
+                   <select class="query_data_select">
+                     <option >黄金</option>
+                     <option >白银</option>
+                   </select>
+                   <span class="query_data_choosetime_content">状态</span>
+                   <select class="query_data_select">
+                     <option >所有</option>
+                     <option >成交</option>
+                     <option >未成交</option>
+                   </select>
+                   <button class="query_data_time_button">提交</button>
+                   <table class="tihuochaxun_table">
+                     <tr class="tihuochaxun_table_title">
+                       <th>编号</th>
+                       <th>交易日</th>
+                       <th>贵金属类型</th>
+                       <th>商品</th>
+                       <th>单价</th>
+                       <th>数量</th>
+                       <th>总价</th>
+                       <th>状态</th>
+                     </tr>
+                     <tr class="tihuochaxun_table_data">
+                       <td>1</td>
+                       <td>20150809</td>
+                       <td>黄金</td>
+                       <td>招金标准金条10g</td>
+                       <td>23.59</td>
+                       <td>1</td>
+                       <td>2359.00</td>
+                       <td class="table_red">未发货</td>
+                     </tr>
+                     <tr class="tihuochaxun_table_data">
+                       <td>2</td>
+                       <td>20150809</td>
+                       <td>黄金</td>
+                       <td>招金标准金条10g</td>
+                       <td>23.59</td>
+                       <td>1</td>
+                       <td>2359.00</td>
+                       <td class="table_red">未发货</td>
+                     </tr>
+                     <tr class="tihuochaxun_table_data">
+                       <td>3</td>
+                       <td>20150809</td>
+                       <td>黄金</td>
+                       <td>招金标准金条10g</td>
+                       <td>23.59</td>
+                       <td>1</td>
+                       <td>2359.00</td>
+                       <td>已发货</td>
+                     </tr>
+
+                   </table>
+                  </div>
+               </form>  
+              
+            </div>
+           <div class="tab-pane fade" id="churujinchaxun">
+               <form>
+                 <div class="query_data_choosetime_block">
+                   <span class="query_data_choosetime_content">起止时间</span>
+                   <input class="query_datachoose_start_time" placeholder="例如:20150909">
+                   <span class="query_data_choosetime_content">截至时间</span>
+                   <input class="query_datachoose_end_time" placeholder="例如:20151009">
+                   <span class="query_data_choosetime_content">类型</span>
+                   <select class="query_data_select">
+                     <option >黄金</option>
+                     <option >白银</option>
+                   </select>
+                   <span class="query_data_choosetime_content">状态</span>
+                   <select class="query_data_select">
+                     <option >所有</option>
+                     <option >成交</option>
+                     <option >未成交</option>
+                   </select>
+                   <button class="query_data_time_button">提交</button>
+                   <table class="churujinchaxun_table">
+                     <tr class="churujinchaxun_table_title">
+                       <th>编号</th>
+                       <th>交易日</th>
+                       <th>类型</th>
+                       <th>资金来源</th>
+                       <th>金额</th>
+                       <th>时间</th>
+                       <th>总价</th>
+                     </tr>
+                     <tr class="churujinchaxun_table_data">
+                       <td>1</td>
+                       <td>20150809</td>
+                       <td>黄金</td>
+                       <td>招金标准金条10g</td>
+                       <td>23.59</td>
+                       <td>1</td>
+                       <td class="table_red">未发货</td>
+                     </tr>
+
+                   </table>
+                  </div>
+               </form>  
+             </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!--查询统计结束-->
+
+   <!--底部开始-->
+  <footer class="down_footer">
+       <section class="footer_content_top">
+         <div class="footer_content_top_block">
+           <div class="find_us">
+             <p class="find_us_p">联系我们</p>
+             <span class="find_us_mail">
+               <img src="images/e_mail.png">
+               <span>chengipeng@golditfin.cn</span>
+             </span>
+             <span class="find_us_phone">
+               <img src="images/tel.png">
+               <span>0755-86530973</span>
+             </span>
+             <span class="find_us_address" style="display:block;">
+               <img src="images/home.png">
+               <address>深圳市南山区科研路9号(比克科技大厦)22楼F单元</address>
+             </span>
+           </div>
+           <div class="about_us">
+             <p class="about_us_p">关于我们</p>
+             <ul class="about_us_content_ul">
+               <li class="about_us_content">
+                  <a href="about_us_company.html">公司简介</a>
+               </li>
+               <li class="about_us_content">
+                  <a href="#">团队管理</a>
+               </li>
+               <li class="about_us_content">
+                  <a href="#">公司动态</a>
+               </li>
+               <li class="about_us_content">
+                  <a href="about_us_partner.html">合作伙伴</a>
+               </li>
+               <li class="about_us_content">
+                  <a href="about_us_findus.html">联系我们</a>
+               </li>
+               <li class="about_us_content">
+                  <a href="#">媒体报道</a>
+               </li>
+               <li class="about_us_content">
+                  <a href="novice.html">新手指引</a>
+               </li>
+               <li class="about_us_content">
+                  <a href="know_jucaijin.html">常见问题</a>
+               </li>
+             </ul>
+             <ul  class="about_us_content_ul xiazai">
+               <li class="about_us_content">
+                  <a href="#">客户端下载</a>
+               </li>
+               <li class="about_us_content_xiazai_ios">
+                  <img src="images/ios.png">
+                  <a href="#">IOS</a>
+               </li>
+               <li class="about_us_content_xiazai">
+                  <img src="images/android.png">
+                  <a href="#">Android</a>
+               </li>
+             </ul>
+           </div>
+         </div>
+       </section>
+       <section class="footer_content_bottom">
+         <div class="footer_content_bottom_aera">
+              <ul class="footer_content_bottom_aera_ul">
+                <li>2013-2015金当家ALL  rights  reserced   |  深圳市前海互联金网有限公司   |   粤ICP备15026892号-2</li>
+              </ul>
+         </div>
+       </section>
+  </footer>
+   <!--底部结束-->
+   <!--右侧导航栏开始-->
+   <nav class="nav_right">
+
+     <div  class="nav_right_images1"> 
+       <div class="nav_right_img1erweima">
+       </div>      
+     </div>
+     <div  class="nav_right_images2">
+      <div class="nav_right_img2dianhua"></div>
+     </div>
+     <div  class="nav_right_images3">
+      <div class="nav_right_img3app"></div>
+     </div>
+   </nav>
+   <!--右侧导航栏结束-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>
