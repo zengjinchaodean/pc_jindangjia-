@@ -1,0 +1,142 @@
+.bgc{
+		background-image: url('../images/baoming.png');
+		background-size: contain;
+		height: 1000px;
+		width: 100%;
+		background-repeat: no-repeat;
+}
+body {
+        display: block;
+        margin: 0px;
+}
+.baomingbgc{
+	width: 100%;
+	height: 100%;
+}
+.i_want_join{
+	display: block;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	z-index: 999;
+	background-color: #fc4444;
+	right: 5%;
+	        position: absolute;
+	        top: 17.5%;
+	        text-decoration:none;
+}
+.i_want_join:visited{
+	 text-decoration:none;
+}
+.paihangbang_block{
+	width: 90%;
+	height: 100%;
+	padding-top: 16px;
+	margin:0 auto;
+}
+.search_block{
+	width: 100%;
+	height: 33px;
+	margin-bottom: 15px;
+}
+.search_block_left{
+	display: inline-block;
+	width: 80%;
+	height: 33px;
+	border:1px solid #aaaaaa;
+	border-right:0px; 
+	-webkit-border-top-left-radius:4px;
+	border-top-left-radius:4px;
+	-webkit-border-bottom-left-radius:4px;
+	border-bottom-left-radius:4px;
+	padding-left: 6px;
+	float: left;
+}
+.search_img{
+	width: 26px;
+	height: 26px;
+	position: relative;
+	top: 3px;
+}
+.search_input{
+	width: 80%;
+	position: relative;
+	top: -4px;
+	border: 0px;
+	outline:none;
+}
+.search_button{
+	width: 17%;
+	border: 0px;
+	height: 35px;
+	border:1px solid #fc4444;
+	background-color: #fc4444;
+	border-left:0px;
+	line-height: 33px;
+	color: #fff;
+	text-align: center;
+	-webkit-border-top-right-radius:4px;
+	border-top-right-radius:4px;
+	-webkit-border-bottom-right-radius:4px;
+	border-bottom-right-radius:4px;
+}
+.search_result{
+	height: 50px;
+	background-color: #eaeaea;
+	padding-top: 10px;
+	padding-left: 12px;
+	margin-bottom: 20px;
+}
+.search_result_line{
+	height: 20px;
+	        line-height: 20px;
+	margin: 0;
+	font-size: 0px;
+}
+.f_r{
+	float: right;
+}
+.search_result_title{
+	font-size: 12px;
+	color: #8c8c8c;
+}
+.search_result_info,.search_result_yinkui{
+	color: #595959;
+	font-size: 12px;
+	width: 90px;
+	display: inline-block;
+}
+.search_result_yinkui{
+	color: #fc4444;
+}
+.search_table{
+	width: 100%;
+	border-collapse:collapse;
+	border:1px solid #d9d9d9;
+}
+.search_table_th{
+	background-color: #d2d0d0;
+	color: #404040;
+	font-size: 12px;
+	height: 35px;
+	font-weight: normal;
+}
+.search_table_th th{
+	padding:0px;
+	font-weight: normal;
+}
+.search_table_td{
+	height: 35px;
+	font-size: 12px;
+	color: #fc4444;
+	text-align: center;
+	border-bottom:1px solid #d9d9d9;
+}
+.search_table_td:nth-child(n+5){
+	color: #595959;
+}
