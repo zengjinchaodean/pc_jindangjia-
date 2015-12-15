@@ -1,0 +1,359 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>购买详情</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logo-small.png" type="image/x-icon" />
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <header class="index_header">
+      <a name="top"></a>
+    <div class="header_wrap">
+      <div class="header_left">
+        <a href="login.html" class="alink">登录</a>
+        <a href="register.html" class="alink">注册</a>
+        <span class="header_phone">
+          客服热线
+          <span class="header_phone_number">0755-86530973</span>
+          <a href="" class="alink"> 
+            <span><img src="images/header_moblie.png" class="header_moblie">手机金当家</span>
+          </a>
+        </span>
+      </div>
+      <div class="user_info">
+        欢迎您,
+        <span class="user_phone">183*******253</span>
+        <a href="#" class="alink">[退出]</a>
+        <a href="my_account.html" class="alink follow_us">我的账户</a>
+        <a href="know_jucaijin.html" class="alink help_center ">帮助中心</a>
+      </div>
+    </div>
+  </header>
+  <!--头部结束-->
+  <nav class="menu_list">
+    <div class="menu_list_info">          
+        <ul>
+          <li class="menu_list_info_logo"><img src="images/logo.png"></li>
+          <a href="index.html"><li class="on">首页</li></a>
+          <a href="product_list.html"><li>我要投资</li></a>
+          <a href="ture_product.html"><li>兑换专区</li></a>
+          <a href="novice.html"><li>新手指引</li></a>
+          <a href="about_us_company.html"><li>关于我们</li></a>
+          <a href="about_us_news_meiti.html"><li>资讯中心</li></a>
+          <a href="my_account.html"><li>我的账户</li></a>
+        </ul>
+    </div>
+  </nav>
+  <!--导航栏结束-->
+  <!--产品购买详细信息开始-->
+  <section class="buy_product_info_body">
+  <div class="buy_product_info_body_block">
+
+    <div class="buy_product_info_neirong">
+
+      <img src="images/tuiguang.png">
+      <a href="#">
+      <span class="current_info_title">金钱袋</span>
+      </a>          
+      <div class="productlist_current_info_message">
+        <span class="productlist_current_info_message_content1">随时取出</span>
+        <span class="productlist_current_info_message_content1">灵活存取</span>
+      </div>
+      <table class="productlist_current_table">
+        <tbody>
+          <tr>
+            <th>七日年化黄金收益</th>
+            <th>起购克数</th>
+            <th>理财期限</th>
+          </tr>
+          <tr class="index_current_secrow"> 
+            <td class="index_current_percent">
+              1.70<span style="font-size:24px;">%</span>
+            </td>
+            <td>1克</td>
+            <td>随时买卖</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="buy_product_info_content_img">
+        <img src="images/buy_product_info_content.png">
+      </div>
+    </div>
+    <div class="buy_product_info_buyit_right_block">
+        <div class="buy_product_info_buyit">
+          <span class="buy_product_info_buyit_content">
+          最新金价:
+            <span class="buy_product_info_buyit_content_price">237.38</span>
+          元/克
+          </span>
+          <a href="mairu.html">
+          <div class="buy_product_info_buyit_button">买入</div>
+          </a>
+        </div>
+        <div class="buy_product_info_buyit">
+          <span class="buy_product_info_buyit_content">
+          最新银价:
+            <span class="buy_product_info_buyit_content_price">23.38</span>
+          元/克
+          </span>
+          <a href="mairu.html">
+          <div class="buy_product_info_buyit_button">买入</div>
+          </a>
+        </div>
+    </div>
+    <div class="buy_product_info_xiangxi">
+      <ul id="myTab" class="nav nav-tabs new_title">
+         <li class="active">
+            <a href="#chanpingxiangqing" data-toggle="tab">
+               产品详情
+            </a>
+         </li>
+         <li>
+            <a href="#touzijilu" data-toggle="tab">
+                投资记录
+            </a>
+         </li>
+      </ul>
+      <div id="myTabContent" class="tab-content">
+         <div class="tab-pane fade in active" id="chanpingxiangqing">
+            <img src="images/buy_product_info.png" class="buy_product_info_img">
+         </div>
+         <div class="tab-pane fade" id="touzijilu">
+         <table class="table table-hover buy_product_touzijilu">
+             <thead>
+               <tr>
+                 <th>序号</th>
+                 <th>投资人</th>
+                 <th>投资金额</th>
+                 <th>投资时间</th>
+                 <th>投资方式</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td>1</td>
+                 <td>136****4129</td>
+                 <td>65,236.00</td>
+                 <td>2015/9/20</td>
+                 <td></td>
+               </tr>
+               <tr>
+                 <td>2</td>
+                 <td>Jacob</td>
+                 <td>Thornton</td>
+                 <td>@fat</td>
+                 <td></td>
+               </tr>
+               <tr>
+                 <td>3</td>
+                 <td>Larry the Bird</td>
+                 <td>@twitter</td>
+                 <td>fat</td>
+                 <td></td>
+               </tr>
+               <tr>
+                 <td>4</td>
+                 <td>Jacob</td>
+                 <td>Thornton</td>
+                 <td>@fat</td>
+                 <td></td>
+               </tr>
+               <tr>
+                 <td>5</td>
+                 <td>Jacob</td>
+                 <td>Thornton</td>
+                 <td>@fat</td>
+                 <td></td>
+               </tr>
+               <tr>
+                 <td>6</td>
+                 <td>Jacob</td>
+                 <td>Thornton</td>
+                 <td>@fat</td>
+                 <td></td>
+               </tr>
+               <tr>
+                 <td>7</td>
+                 <td>Jacob</td>
+                 <td>Thornton</td>
+                 <td>@fat</td>
+                 <td></td>
+               </tr>
+               <tr>
+                 <td>8</td>
+                 <td>Jacob</td>
+                 <td>Thornton</td>
+                 <td>@fat</td>
+                 <td></td>
+               </tr>
+              <tr>
+                <td>9</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td></td>
+              </tr>
+
+             </tbody>
+          </table>
+          <ul class="pagination buy_product_info_ul">
+            <li><a href="#">&laquo;</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">&raquo;</a></li>
+          </ul>
+         </div>         
+      </div>
+    </div>
+  </div>
+  </section>
+  <!--产品购买详细信息结束-->
+   <!--底部开始-->
+    <footer class="down_footer">
+         <section class="footer_content_top">
+           <div class="footer_content_top_block">
+            <img src="images/bottom_info.png" class="footer_info_img">
+            <div class="footer_content_top_block_nav">
+              <p class="footer_content_top_block_nav_line">
+                <span><a href="know_jucaijin.html">帮助中心</a></span>
+                <span><a href="novice.html">新手指引</a></span>
+              </p>
+              <p class="footer_content_top_block_nav_line">
+                <span><a href="product_list.html">我要投资</a></span>
+                <span><a href="about_us_company.html">关于我们</a></span>
+              </p>
+              <p class="footer_content_top_block_nav_line">
+                <span><a href="ture_product.html">兑换专区</a></span>
+                <span><a href="about_us_news_meiti.html">资讯中心</a></span>
+              </p>
+            </div>
+            <img src="images/focus_gongzonghao.png" class="footer_sao_erweima">
+           </div>
+         </section>
+         <section class="footer_content_bottom">
+           <div class="footer_content_bottom_aera">
+              <ul class="footer_content_bottom_aera_ul">
+                <li>2013-2015金当家ALL  rights  reserced   |  深圳市前海互联金网有限公司   |   粤ICP备15026892号-2</li>
+              </ul>
+           </div>
+         </section>
+    </footer>
+   <!--底部结束-->
+   <!--交易提示开始-->   
+   <div class="trade_warming">
+     <div class="trade_warming_title">
+       交易提示
+       <img src="images/cha.png" class="trade_warming_title_cha">
+     </div>
+     <div class="trade_warming_body">
+       <span class="trade_warming_body_content">您需要绑定银行卡或充值到我的资产后进行购买交易
+       </span>
+       <div class="trade_warming_body_button_block">
+         <a href="#">
+           <span class="trade_warming_body_button">
+             去绑定银行卡
+           </span>
+         </a>
+         <a href="#">
+           <span class="trade_warming_body_button">
+             去我的资产充值
+           </span>
+         </a>
+       </div>
+     </div>
+   </div>
+   <div class="bgc_mongcen"></div>
+
+   <!--交易提示结束-->
+        <!--右侧导航栏开始-->
+     <nav class="nav_right">
+
+       <div  class="nav_right_images1"> 
+         <div class="nav_right_img1erweima">
+         </div>      
+       </div>
+       <div  class="nav_right_images2">
+        <div class="nav_right_img2dianhua"></div>
+       </div>
+       <div  class="nav_right_images3">
+        <div class="nav_right_img3app"></div>
+       </div>
+       <div  class="nav_right_images4">
+       <a href="#top" class="goto_top"></a>
+       </div>
+     </nav>
+     <!--右侧导航栏结束-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(".trade_warming_title_cha").click(function(){
+          $(".trade_warming").css('display','none');
+          $(".bgc_mongcen").css('display','none');
+        });
+    </script>
+  </body>
+</html>
+
