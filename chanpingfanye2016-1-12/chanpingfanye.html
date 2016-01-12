@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>金当家-最专业的黄金理财平台</title>
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+		<meta name="viewport" content="initial-scale=1.0,width=device-width,user-scalable=no,maximum-scale=1.0,minimum-scale=1.0"/>
+		
+		<link href="idangerous.swiper.css" rel="stylesheet" type="text/css">
+        <link href="style.idangero.css" rel="stylesheet" type="text/css">
+        <link href="style.animation.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="swiper-container idangero">
+			<div class="swiper-wrapper">
+				<!--头部模板一-->
+				<div class="swiper-slide bg1">
+					<div class="mainastable">
+												
+							
+                                <div>
+									<div class="img0 witha main_1top">
+                                		<img src="image/top1.png"/>
+                               	    </div>
+									<div class="img1 witha main_1bottom">
+                                		<img src="image/bottom1.png"/>
+                                	</div>
+                                </div>
+											<div class="arrow arrow-vertical-middle">
+						<img class="ic" src="image/arrow.png" alt="novolio"/>
+					</div>
+					</div>
+					<div class="arrow arrow-vertical-middle">
+						<img class="ic" src="image/arrow.png" alt="novolio"/>
+					</div>
+				</div>
+				<!--主体模板一-->
+				<div class="swiper-slide bg2" >
+					<div class="mainastable">
+					           <div>
+									<div class="img3 witha main_1top">
+                                		<img src="image/top2.png"/>
+                               	    </div>
+									<div class="img4 witha main_1bottom">
+                                		<img src="image/bottom2.png"/>
+                                	</div>
+                                </div>
+							
+						
+					</div>
+				</div>
+				<!--主体模板二-->
+				<div class="swiper-slide bg3" >
+					<div class="mainastable">
+					           <div>
+									<div class="img5 witha main_1top">
+                                		<img src="image/top3.png"/>
+                               	    </div>
+									<div class="img6 witha main_1bottom">
+                                		<img src="image/bottom3.png"/>
+                                	</div>
+                                </div>
+					</div>
+				</div>
+				<!--主体模板三-->
+				<div class="swiper-slide bg4">
+					<div class="mainastable">
+					           <div>
+									<div class="img7 witha main_1top">
+                                		<img src="image/top4.png"/>
+                               	    </div>
+									<div class="img8 witha main_1bottom">
+                                		<img src="image/bottom4.png"/>
+                                	</div>
+                                </div>
+					</div>
+				</div>
+				<!--主体模板四-->
+				<div class="swiper-slide bg5">
+					<div class="mainastable">
+					           <div>
+									<div class="img9 witha main_1top">
+                                		<img src="image/top5.png"/>
+                               	    </div>
+									<div class="img10 witha main_1bottom">
+                                		<img src="image/bottom5.png"/>
+                                	</div>
+                                </div>
+					</div>
+				</div>
+				<!--主体模板五-->
+				<div class="swiper-slide bg6">
+					<div class="mainastable">
+					           <div>
+									<div class="img11 witha main_1top">
+                                		<img src="image/top6.png"/>
+                               	    </div>
+									<div class="img12 witha main_1bottom">
+                                		<img src="image/bottom6.png"/>
+                                	</div>
+                                </div>
+					</div>
+				</div>
+				<!--主体模板六-->
+				<div class="swiper-slide bg7">
+					<div class="mainastable">
+					           <div>
+									<div class="img13 witha main_1top">
+                                		<img src="image/top7.png"/>
+                               	    </div>
+									<div class="img14 witha main_1bottom">
+                                		<img src="image/bottom7.png"/>
+                                	</div>
+                                </div>
+					</div>
+				</div>	
+				<!--主体模板七-->
+				<div class="swiper-slide bg8">
+					<div class="mainastable">
+					           <div>
+									<div class="img15 witha main_1top">
+                                		<img src="image/top8.png"/>
+                               	    </div>
+									<div class="img16 witha main_1bottom">
+                                		<img src="image/bottom8.png"/>
+                                	</div>
+                                </div>
+					</div>
+				</div>	
+				<!--主体模板八-->
+				<div class="swiper-slide bg9">
+					<div class="mainastable">
+					           <div>
+									<div class="img17 witha main_1top">
+                                		<img src="image/top8.png"/>
+                               	    </div>
+									<div class="img18 witha main_1bottom">
+                                		<img src="image/bottom9.png"/>
+                                	</div>
+                                </div>
+					</div>
+				</div>											
+			</div>
+			<!--
+			页面切换点点。需同时开启下面的js参数。
+			<div class="pagination"></div>
+			-->
+		</div>
+		<div id="landscapeTips">
+			<div class="cell">
+				<p class="noticep">建议使用竖屏观看</p>
+				<p>Better View In Portrait</p>
+			</div>
+		</div>
+		<div id="videoErrors">
+			<div class="cell noticep">
+				<p>因网络环境不佳，视频无法加载。</p>
+				<p>请刷新页面。</p>
+			</div>
+		</div>
+		<!-------------------------------script--------------------------------->
+		<script src="jquery-1.11.0.min.js"></script>
+		<script src="idangerous.swiper.min.js"></script>
+		<script src="devicejs.min.js"></script>
+		<script src="jwx.js"></script>
+		<script src="jindangjia.ws.min.js"></script>
+		<script src="nwx-tls.min.js"></script>
+		<script>
+			var slidesize=$('.swiper-slide').size(),
+				p_a=$('.arrow'),
+				t_v=document.getElementById("localVideo"),
+				l_v=$("#localVideo"),
+				v_b=$("#videoBox"),
+				v_s=$("#videoSketch"),
+				v_e=$("#videoErrors"),
+				s_link='http://wx.timedoc.tv/wechat/template/template_idangero_vertical.html',
+				s_img='../tools/images/public/thumbnail/png',
+				ai=null,
+				pi=null;
+			
+			/***********************************************************************idangero swipe*/
+			var localswipe = new Swiper('.swiper-container',{
+				/*
+				切换点点参数
+				pagination: '.pagination',
+				paginationClickable:false,
+				*/
+				mode: 'vertical',
+				onSlideChangeEnd:function(){
+					/*index由0起始*/
+					ai=localswipe.activeIndex;
+					pi=localswipe.previousIndex;
+					arrowConsole(ai,pi);
+					
+					if(ai==0){
+						$(".m_maintitle1").addClass("aset4_a2");
+						$(".img0").addClass("aset1_1");
+						$(".img1").addClass("aset2_2");
+						$(".m_vicetitle1").addClass("aset1_2");
+						$(".m_vicetitleen1").addClass("aset1_2");	
+						$(".m_logo1").addClass("aset_showoff");		
+					}else{
+						$(".m_maintitle1").removeClass("aset4_a2");
+						$(".img0").removeClass("aset1_1");
+						$(".img1").removeClass("aset2_2");
+						$(".m_vicetitle1").removeClass("aset1_2");
+						$(".m_vicetitleen1").removeClass("aset1_2");
+						$(".m_logo1").removeClass("aset_showoff");		
+					}
+
+					if(ai==1){
+					    $(".img3").addClass("aset1_1");
+						$(".img4").addClass("aset2_2");
+						$(".m_section_title1").addClass("aset2_22");
+						$(".m_section_img1").addClass("aset5_3");
+						$(".p1_down").addClass("aset3_22");
+					}else{
+					    $(".img3").removeClass("aset1_1");
+						$(".img4").removeClass("aset2_2");
+						$(".m_section_title1").removeClass("aset2_22");
+						$(".m_section_img1").removeClass("aset5_3");
+						$(".p1_down").removeClass("aset3_22");
+					}
+
+					if(ai==2){
+					    $(".img5").addClass("aset1_1");
+						$(".img6").addClass("aset2_2");					
+						$(".m_section_title2").addClass("aset4_a1");
+						$(".m_section_text2").addClass("aset4_2")
+						$(".m_section_img2").addClass("aset4_3");
+					}else{
+					    $(".img5").removeClass("aset1_1");
+						$(".img6").removeClass("aset2_2");					
+						$(".m_section_title2").removeClass("aset4_a1");
+						$(".m_section_text2").removeClass("aset4_2")
+						$(".m_section_img2").removeClass("aset4_3");
+					}
+
+					if(ai==3){
+					    $(".img7").addClass("aset1_1");
+						$(".img8").addClass("aset2_2");					
+						$(".m_section_img3").addClass("aset5_22");
+
+					}else{
+					    $(".img7").removeClass("aset1_1");
+						$(".img8").removeClass("aset2_2");						
+						$(".m_section_img3").removeClass("aset5_22");
+						$(".p4p").removeClass("aset2_1");
+						$(".p4p2").removeClass("aset5_3");
+					}
+
+					if(ai==4){
+					    $(".img9").addClass("aset1_1");
+						$(".img10").addClass("aset2_2");						
+						$(".m_s4_img").addClass("aset5_1");
+						$(".m_section_text3").addClass("aset4_2");
+					}else{
+					    $(".img9").removeClass("aset1_1");
+						$(".img10").removeClass("aset2_2");						
+						$(".m_s4_img").removeClass("");
+						$(".m_section_text3").removeClass("");
+					}
+					if(ai==5){
+					    $(".img11").addClass("aset1_1");
+						$(".img12").addClass("aset2_2");	
+					}else{
+					    $(".img11").removeClass("aset1_1");
+						$(".img12").removeClass("aset2_2");	
+						$(".m_s4_img").removeClass("aset5_1");
+						$(".m_section_text3").removeClass("aset4_2");
+					}
+					if(ai==6){
+					    $(".img13").addClass("aset1_1");
+						$(".img14").addClass("aset2_2");	
+					}else{
+					    $(".img13").removeClass("aset1_1");
+						$(".img14").removeClass("aset2_2");	
+						$(".m_s4_img").removeClass("aset5_1");
+						$(".m_section_text3").removeClass("aset4_2");
+					}
+					if(ai==7){
+					    $(".img15").addClass("aset1_1");
+						$(".img16").addClass("aset2_2");	
+					}else{
+					    $(".img15").removeClass("aset1_1");
+						$(".img16").removeClass("aset2_2");	
+						$(".m_s4_img").removeClass("aset5_1");
+						$(".m_section_text3").removeClass("aset4_2");
+					}
+					if(ai==8){
+					    $(".img17").addClass("aset1_1");
+						$(".img18").addClass("aset2_2");	
+					}else{
+					    $(".img17").removeClass("aset1_1");
+						$(".img18").removeClass("aset2_2");	
+						$(".m_s4_img").removeClass("aset5_1");
+						$(".m_section_text3").removeClass("aset4_2");
+					}
+					
+					/*video提供两个动画选项：扩大、下滑，对应video_animation1、video_animation2*/
+					if(ai==(slidesize-2)){
+						$("#videoBox").removeClass("video_animation2");
+						t_v.pause();
+					}
+					if(ai==(slidesize-1)){
+						$("#videoBox").addClass("video_animation2");
+					}
+				}
+			})
+			localswipe.enableKeyboardControl();
+			
+			/***********************************************************************arrow*/
+			function arrowConsole(t_i,p_i){
+				if(t_i==(slidesize-1)){
+					$("body").find(".swiper-slide").eq(t_i).append(p_a);
+					p_a.css('display','none');
+					$("body").find(".swiper-slide").eq(p_i).find(p_a).remove();
+				}
+				else{
+					$("body").find(".swiper-slide").eq(t_i).append(p_a);
+					p_a.css('display','block');
+					$("body").find(".swiper-slide").eq(p_i).find(p_a).remove();
+				}
+				
+				/*past edition
+				if(t_i==(slidesize-1)){
+					$('.section'+t_i).append(p_a);
+					p_a.css('display','none');
+					$('.section'+p_i).find(p_a).remove();
+				}
+				else{
+					$('.section'+t_i).append(p_a);
+					p_a.css('display','block');
+					$('.section'+p_i).find(p_a).remove();
+				}
+				*/
+			}
+			
+			/***********************************************************************video load*/
+			/*msd / mp4*/
+			getVideoQ1Src("j0141e2bk0k", "msd", function(result){
+				if( result == "-1" || result == "-2"){
+					v_e.css({'display':'table','z-index':'500'});
+				}else{
+					v_e.css({'display':'none','z-index':'-1'});
+					l_v.attr("src",result);
+				}
+			});
+			
+			v_b.bind('click',function(){
+				v_s.remove();
+				v_b.append(l_v);
+				l_v.css('display','');
+				t_v.play();
+				v_b.unbind();
+			});
+			
+			/***********************************************************************onload / orientation / wechat share*/
+			$(function(){
+				$(".idangero").addClass("pagestart");
+				
+				$(".m_maintitle1").addClass("aset4_a2");
+				$(".img0").addClass("aset1_1");
+				$(".img1").addClass("aset2_2");
+				$(".m_vicetitle1").addClass("aset1_2");
+				$(".m_vicetitleen1").addClass("aset1_2");	
+				$(".m_logo1").addClass("aset_showoff");	
+
+				if(!device.tablet() && !device.mobile()){
+					$("#landscapeTips").css({'display':'none','z-index':'-1'});
+				}
+				
+				novolio_ws(s_img,'100','100','Idangero vertical','',s_link);
+			})
+			/***********************************************************************video load*/
+			/*msd / mp4*/
+			getVideoQ1Src("y0145qlxjhm", "msd", function(result){
+				if( result == "-1" || result == "-2"){
+					v_e.css({'display':'table','z-index':'500'});
+				}else{
+					v_e.css({'display':'none','z-index':'-1'});
+					l_v.attr("src",result);
+				}
+			});
+			
+			v_b.bind('click',function(){
+				v_s.remove();
+				v_b.append(l_v);
+				l_v.css({"display":"block","position":"static","top":"0"});
+				t_v.play();
+				v_b.unbind();
+			});
+			
+			/***********************************************************************onload / orientation / wechat share*/
+			$(function(){
+				$(".idangero").addClass("pagestart");
+				
+				if(!device.tablet() && !device.mobile()){
+					$("#landscapeTips").css({'display':'none','z-index':'-1'});
+				}
+				
+
+				// as the page loads, call these scripts
+		        wx.config({
+		          appId: 'wx8de13f14885ca916',
+		          timestamp: '1426726465',
+		          nonceStr: 'ToA7fJt8YJkEsYYE',
+		          signature: 'c4c346adca7bb2f37876a334b425f71b1a5868a7',
+		          jsApiList: [
+		            // 所有要调用的 API 都要加到这个列表中
+		            "getNetworkType",
+		            "onMenuShareTimeline",
+		            "onMenuShareAppMessage"
+		          ]
+		        });
+		        
+		        wx.ready(function () {
+		          // 在这里调用 API
+		          wx.getNetworkType({
+		            success: function (res) {
+		              //alert(res.networkType);
+		            },
+		            fail: function (res) {
+		              console.log(JSON.stringify(res));
+		            }
+		          });
+		          
+		          var shareData = {
+		            title: '金当家',
+		            desc: '金当家-最好的黄金理财平台',
+		            link: '',
+		            imgUrl: 'http://192.168.1.200/jjb/chanpingfanye/image/1a.png'
+		          };
+		          wx.onMenuShareAppMessage(shareData);
+		          wx.onMenuShareTimeline(shareData);
+		          wx.hideMenuItems({
+					  menuList: [
+						'menuItem:share:appMessage',
+						'menuItem:share:timeline',
+						'menuItem:favorite',
+						'menuItem:copyUrl',
+						'menuItem:share:qq',
+						'menuItem:setFont'
+					  ],
+					  success: function (res) {
+						alert('已隐藏“阅读模式”，“分享到朋友圈”，“复制链接”等按钮');
+					  },
+					  fail: function (res) {
+						console.log(JSON.stringify(res));
+					  }
+					});
+		        });
+		        
+		        wx.error(function(res){
+		          console.log("wx err:"+res);
+		        });
+			})
+
+		</script>
+		<!-------------------------------timedoc baidu detect--------------------------------->
+		<div class="hidden">
+			<script type="text/javascript">
+				var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+				document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fb7291e977fa19ab69d0d4b8f3539cf63' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+		</div>
+	</body>
+</html>
